@@ -11,6 +11,6 @@ This code is tested with python==3.8, tensorflow-gpu==2.7, and cuda/cudnn 11.2/8
 ```
 from tf2dprelu import DPReLU
 
-previous_layer = ...
+previous_layer = ... # ex) conv, dense, ...
 dprelu_activated = DPReLU(previous_layer)
 ```
