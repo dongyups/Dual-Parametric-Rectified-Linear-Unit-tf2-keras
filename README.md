@@ -8,7 +8,7 @@ This code is tested with python==3.8, tensorflow-gpu==2.7, and cuda/cudnn 11.2/8
 - CUDA 10.X or 11.X for gpu settings depends on your hardware
 
 ### How to use
-```
+```python3
 from tf2dprelu import DPReLU
 
 previous_layer = ... # ex) conv, dense, ...
